@@ -58,10 +58,6 @@ class Chart(with_metaclass(ChartMeta, object)):
         return self.to_html()
 
 
-# class ComboChart(Chart):
-#     chart_type = 'ComboChart'
-
-
 class LineChart(Chart):
     chart_type = 'LineChart'
 
@@ -112,3 +108,22 @@ class SparklineChart(Chart):
 
 class SteppedAreaChart(Chart):
     chart_type = 'SteppedAreaChart'
+
+
+class Gauge(Chart):
+    """
+    greenFrom:75, yellowTo: 90,
+    yellowFrom:75, yellowTo: 90,
+    redFrom: 90, redTo: 100,
+    """
+    chart_type = 'Gauge'
+
+
+class GeoChart(Chart):
+    chart_type = 'GeoChart'
+
+
+class Sankey(Chart):
+    chart_type = 'Sankey'
+
+

@@ -15,7 +15,7 @@ def django_google_chart_js():
             {
                 'name': 'visualization',
                 'version': '1',
-                'packages': ['corechart'],
+                'packages': ['corechart', 'gauge', 'geochart', 'sankey'],
             },
         ],
     })
