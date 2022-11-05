@@ -10,3 +10,5 @@ For more information and documentation, visit https://danpalmer.me/projects/djan
 Contributions are encouraged and welcome from all, regardless of programming background or experience. If you are unsure about a feature, open an issue first to start a discussion.
 
 All contributions should include tests, keep the build passing, maintain a high code quality, and maintain a high test coverage. However none of these are required to open a pull-request.
+
+.
