@@ -12,3 +12,6 @@ Contributions are encouraged and welcome from all, regardless of programming bac
 All contributions should include tests, keep the build passing, maintain a high code quality, and maintain a high test coverage. However none of these are required to open a pull-request.
 
 .
+
+
+Hi, It's a test!
